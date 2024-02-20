@@ -1,0 +1,221 @@
+/* GENERAL */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+  
+body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/* TIPOGRAPHY */
+
+h1{
+    flex: 5;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* OPCIONES IZQ */
+
+.general-dash .menu-dash{
+    position: absolute;
+    background-color: rgba(145, 142, 142, 1);
+    padding: 1%;
+    left: 0px;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
+    width: 400px;
+    font-size: 25px;
+}
+
+
+.menu-dash ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column; 
+}
+  
+.menu-dash li {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 80px;
+}
+
+.menu-dash a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.general-dash .derech-dash{
+    position: absolute;
+    padding: 1%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 1570px; /* Ancho del nuevo rectángulo */
+    background-color: rgb(213, 212, 212); /* Color del nuevo rectángulo */
+    font-size: 25px;
+    text-align: left;
+}
+
+.general-dash .derech-dash .text-containers{
+    font-size: 25px;
+}
+
+/* OPCIONES DERECHA */
+.derech-dash .text-containers {
+    margin-left: 150px;
+}
+
+
+/* CIRCULOS */
+.circle-container{
+    position: relative;
+    display: flex;
+    justify-content: center; /* Distribuye el espacio entre los semicírculos */
+    align-items: center;
+    margin-top: -400px;
+}
+
+
+.circle1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(18, 193, 18);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 50px; /* Ajusta según sea necesario */    
+    bottom: 0; /* Ajusta según sea necesario */
+    left: 1050px; /* Ajusta según sea necesario */
+}
+
+.circle2 {
+    width: 170px;
+    height: 170px;
+    background-color: rgb(213, 212, 212);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 50px; /* Ajusta según sea necesario */    
+    bottom: 0; /* Ajusta según sea necesario */
+    left: 1090px; /* Ajusta según sea necesario */
+}
+
+.circle3 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(146, 208, 71);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 350px; /* Ajusta según sea necesario */    
+    bottom: 0; /* Ajusta según sea necesario */
+    left: 1050px; /* Ajusta según sea necesario */
+}
+
+.circle4 {
+    width: 170px;
+    height: 170px;
+    background-color: rgb(213, 212, 212);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 350px; /* Ajusta según sea necesario */    
+    bottom: 0; /* Ajusta según sea necesario */
+    left: 1090px; /* Ajusta según sea necesario */
+}
+
+
+.circle5 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(201, 178, 27);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 650px; /* Ajusta según sea necesario */    
+    bottom: 50px; /* Ajusta según sea necesario */
+    left: 1050px; /* Ajusta según sea necesario */
+}
+
+.circle6 {
+    width: 170px;
+    height: 170px;
+    background-color: rgb(213, 212, 212);
+    border-radius: 50%; /* Esto hace que el div tenga forma de círculo */
+    position: absolute; /* Posiciona en relación al contenedor */
+    margin: auto; /* Alinea horizontal y verticalmente */
+    top: 650px; /* Ajusta según sea necesario */    
+    bottom: 0; /* Ajusta según sea necesario */
+    left: 1090px; /* Ajusta según sea necesario */
+}
+
+/* SEMICIRCULOS */
+
+.semicircle-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los semicírculos */
+    margin-right: 900px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.semicircle1 {
+    position: absolute;
+    width: 250px; /* Ancho del semicírculo */
+    height: 150px; /* Altura del semicírculo (la mitad del ancho para un semicírculo perfecto) */
+    background-color: rgb(18, 193, 18); /* Color de fondo del semicírculo */
+    border-top-left-radius: 150px; /* Radio de las esquinas superiores izquierdas (la mitad del ancho) */
+    border-top-right-radius: 150px; /* Radio de las esquinas superiores derechas (la mitad del ancho) */
+}
+
+.semicircle2 {
+    position: absolute;
+    width: 200px; /* Ancho del semicírculo */
+    height: 125px; /* Altura del semicírculo (la mitad del ancho para un semicírculo perfecto) */
+    background-color:  rgb(213, 212, 212); /* Color de fondo del semicírculo */
+    border-top-left-radius: 100px; /* Radio de las esquinas superiores izquierdas (la mitad del ancho) */
+    border-top-right-radius: 100px; /* Radio de las esquinas superiores derechas (la mitad del ancho) */
+    top: 25px; /* Posición superior para superponer el semicírculo pequeño */
+    left: 25px; /* Posición izquierda para superponer el semicírculo pequeño */
+}
+
+
+.semicircle3 {
+    position: absolute;
+    width: 250px; /* Ancho del semicírculo */
+    height: 150px; /* Altura del semicírculo (la mitad del ancho para un semicírculo perfecto) */
+    background-color: rgb(255, 230, 0); /* Color de fondo del semicírculo */
+    border-top-left-radius: 150px; /* Radio de las esquinas superiores izquierdas (la mitad del ancho) */
+    border-top-right-radius: 150px; /* Radio de las esquinas superiores derechas (la mitad del ancho) */
+    left: 350px; /* Posición izquierda para colocar al lado del primer semicírculo */
+}
+
+.semicircle4 {
+    position: absolute;
+    width: 200px; /* Ancho del semicírculo */
+    height: 125px; /* Altura del semicírculo (la mitad del ancho para un semicírculo perfecto) */
+    background-color:  rgb(213, 212, 212); /* Color de fondo del semicírculo */
+    border-top-left-radius: 100px; /* Radio de las esquinas superiores izquierdas (la mitad del ancho) */
+    border-top-right-radius: 100px; /* Radio de las esquinas superiores derechas (la mitad del ancho) */
+    top: 25px; /* Posición superior para superponer el semicírculo pequeño */
+    left: 375px; 
+}
